@@ -1,4 +1,4 @@
-import axios from "https://cdn.jsdelivr.net/npm/axios@1.10.0/+esm";
+// import axios from "https://cdn.jsdelivr.net/npm/axios@1.10.0/+esm";
 
 // axios
 //   .get("https://icherniakov.ru/yt-course/account/test_accounts")

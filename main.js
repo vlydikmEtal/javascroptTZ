@@ -1,3 +1,14 @@
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.faq-item').forEach((item) => {
+    item.addEventListener('click', () => {
+      item.classList.toggle('opened')
+    })
+  })
+})
+
+
+// тут с задачника задачи
+
 // Дано число. Проверьте, отрицательное оно или нет. Выведите об этом информацию в консоль.
 
 // const a = -1
@@ -89,12 +100,3 @@
 // } else {
 //   console.log("Нет");
 // }
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.faq-item').forEach((item) => {
-    item.addEventListener('click', () => {
-      item.classList.toggle('opened')
-    })
-  })
-})
